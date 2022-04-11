@@ -358,7 +358,7 @@ contract BEP20Standard is Context, IBEP20, Ownable {
 
   constructor() public {
     _name = "Bank Venice"; 
-    _symbol = "Venice"; 
+    _symbol = "BV"; 
     _decimals = 18; 
     _totalSupply = 322000000000000000000000000; 
     _balances[msg.sender] = _totalSupply;
